@@ -1,0 +1,16 @@
+.animate{
+    opacity: 0;
+    transition: 1s;
+}
+
+.animate.from-left{
+    transform: translateX(-100%);
+}
+
+.animate.from-right{
+    transform: translateX(10%);
+}
+.animate.show{
+    transform:translate(0);
+    opacity: 1;
+}
